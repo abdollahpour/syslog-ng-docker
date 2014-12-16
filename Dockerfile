@@ -1,5 +1,5 @@
 FROM base/arch	
-MAINTAINER John Regan <john@jrjrtech.com>
+MAINTAINER Hamed Abdollahpour <ha.hamed@gmail.com>
 
 RUN pacman -Sy && \
     pacman -S --noconfirm syslog-ng
